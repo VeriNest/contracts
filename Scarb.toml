@@ -1,0 +1,8 @@
+[package]
+name = "vern"
+version = "0.1.0"
+edition = "2023_11"
+
+[dependencies]
+starknet = "2.11.2"
+openzeppelin = { git = "https://github.com/OpenZeppelin/cairo-contracts.git", tag = "v3.0.0-alpha.1" }
